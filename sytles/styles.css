@@ -22,7 +22,8 @@ span {
 }
 
 p {
-    line-height: 20px;
+    line-height: 25px;
+    font-size: 20px;
     font-family: poppinslight;
 }
 
@@ -35,7 +36,7 @@ header {
 }
 
 .title {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 header ul {
@@ -44,11 +45,14 @@ header ul {
     gap: 50px;
     margin-left: auto;
     margin-right: 30px;
+    margin-top: 15px;
+    align-self:flex-start
 }
 
 a {
     text-decoration: none;
     color: white;
+    font-size: 20px;
 }
 
 li a:hover {
@@ -88,8 +92,8 @@ li a:hover {
     
     border: 2px solid #3882f6;
     border-radius: 5px;
-    width: 50%;
-
+    width: 40%;
+    min-width: 600px;
 }
 
 .blue-button{
@@ -142,6 +146,7 @@ main h2{
 
 .place img {
     width: 100%;
+    max-width: 400px;
     height: 222px;
     border: 2px solid #3882f6;
     border-radius: 10px;
@@ -155,14 +160,15 @@ main h2{
 }
 
 .quote p {
-    font-size: 20px;
-    line-height: 27px;
+    font-size: 24px;
+    line-height: 29px;
 }
 
-.quote p span {
-    font-size: 18px;
+.quote #quote-name{
+    font-size: 20px;
     font-weight: bold;
-    margin-left: 800px;
+    color:#3882f6;
+    text-align: end;
 }
 
 .sign-up-container {
